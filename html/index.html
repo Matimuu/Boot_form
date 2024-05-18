@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <script src="../js/bootstrap.min.js"></script>
+</head>
+<body>
+<h3 class="modal-title">Form</h3>
+    <form>
+        <div class="row mb-3">
+            <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-10">
+                <input type="email" class="form-control" id="inputEmail">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <label for="inputPass" class="col-sm-2 col-form-label">Password</label>
+            <div class="col-sm-10">
+                <input type="email" class="form-control" id="inputPass">
+            </div>
+        </div>
+        <filedset>
+            <div class="row mb-3">
+                <legend class="col-form-label col-sm-2">
+                    Buttons
+                </legend>
+                <div class="col-sm-10">
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" name="buttons" value="option1" id="button1" checked>
+                        <label for="button1" class="form-check-lavel">Button One</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" name="buttons" value="option1" id="button2">
+                        <label for="button2" class="form-check-lavel">Button Two</label>
+                    </div>
+                    <div class="form-check disabled">
+                        <input type="radio" class="form-check-input" name="buttons" value="option1" id="button3" disabled>
+                        <label for="button3" class="form-check-lavel">Button Three</label>
+                    </div>
+                </div>
+            </div>
+        </filedset>
+    </form>
+</body>
+</html>
